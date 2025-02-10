@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Estética</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/lucide-web/dist/umd/lucide.min.js">
+    <script src="https://unpkg.com/lucide-web/dist/umd/lucide.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Bella Estética</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-section">
+                        <h3>Información de Contacto</h3>
+                        <div class="info-item">
+                            <i data-lucide="phone"></i>
+                            <div>
+                                <p class="label">Teléfono</p>
+                                <p>+1 234 567 890</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i data-lucide="mail"></i>
+                            <div>
+                                <p class="label">Email</p>
+                                <p>info@bellaestetica.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i data-lucide="map-pin"></i>
+                            <div>
+                                <p class="label">Dirección</p>
+                                <p>Calle Principal 123</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i data-lucide="clock"></i>
+                            <div>
+                                <p class="label">Horario de Atención</p>
+                                <p>Lunes - Viernes: 9:00 - 19:00</p>
+                                <p>Sábado: 9:00 - 14:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-section">
+                        <h3>Ubicación</h3>
+                        <div class="map-container">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.4294554665566!2d-60.21886152535722!3d-33.33372849154219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b76788d0da6bdf%3A0xab5e97cc3df512e7!2sAlmafuerte%2096%2C%20B2900%20San%20Nicol%C3%A1s%20de%20Los%20Arroyos%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1739140157049!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">"
+                                width="100%"
+                                height="400"
+                                style="border:0;"
+                                allowfullscreen
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Formulario de Contacto</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nombre Completo</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <h3>Bella Estética</h3>
+                    <div class="footer-contact">
+                        <p><i data-lucide="phone"></i> +1 234 567 890</p>
+                        <p><i data-lucide="mail"></i> info@bellaestetica.com</p>
+                        <p><i data-lucide="map-pin"></i> Calle Principal 123</p>
+                    </div>
+                </div>
+                <div class="footer-hours">
+                    <h3>Horario</h3>
+                    <p>Lunes - Viernes: 9:00 - 19:00</p>
+                    <p>Sábado: 9:00 - 14:00</p>
+                    <p>Domingo: Cerrado</p>
+                </div>
+                <div class="footer-booking">
+                    <h3>Reservas</h3>
+                    <p class="booking-phone">+1 234 567 890</p>
+                    <p>Agenda tu consulta</p>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; <span id="year"></span> Bella Estética. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Initialize Lucide icons
+         lucide.createIcons();
+
+        // Update copyright year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Active navigation link highlighting
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-links a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - sectionHeight / 3)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').slice(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Contact form handling
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            // Add your form submission logic here
+            alert('Mensaje enviado con éxito');
+            this.reset();
+        });
+
+        
+    </script>
+</body>
+</html>
